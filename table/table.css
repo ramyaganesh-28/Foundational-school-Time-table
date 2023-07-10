@@ -1,0 +1,23 @@
+table,tr,th,td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table{
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 600px;
+}
+
+td{
+    text-align: center;
+}
+
+#head_3{
+    text-align: right;
+}
+
+#head_2{
+    text-align: left;
+}

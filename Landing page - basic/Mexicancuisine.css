@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+#Mexicanpara img{
+    margin-top: 15px;
+    margin-left: 550px;
+    width: 35%;
+    height: 300px;
+    border: 2px solid whitesmoke;
+    border-radius: 9px;
+    padding: 15px;
+}
+
+h1{
+    font-size: 35px;
+    color: aquamarine;
+    text-transform: uppercase;
+}
+
+p, ul li {
+    font-size: 25px;
+    color: gray;
+
+}
+

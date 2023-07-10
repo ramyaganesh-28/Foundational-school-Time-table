@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="./forms.css">
+</head>
+<body>
+
+    <h1>REGISTRATION FORM</h1><br><br>
+    <form>
+        <label>Name:</label><br>
+        <input type="text" name="name" placeholder="Your Name" style="width: 250px; height: 20px;" required><br><br>
+        <label>Email:</label><br>
+        <input type="email" name="email" placeholder="Your email" style="width: 250px; height: 20px;" required ><br><br>
+        <label>Password:</label><br>
+        <input type="password" name="pass" style="width: 250px; height: 20px;"  required minlength="5"><br><br>
+        <label>Phone Number:</label><br>
+        <input type="number" name="ph.no" style="width: 250px; height: 20px;" required minlength="10"><br><br>
+
+        <label>Gender:</label><br>
+        <select style="width: 250px; height: 20px;" required >
+            <option>select</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Others</option>
+        </select><br><br>
+
+
+        <label>Language:</label><br>
+        <input type="radio" name="lang" required>Tamil<br>
+        <input type="radio" name="lang" required>English<br><br>
+
+
+
+
+        <label>Zip Code:</label><br>
+        <input type="text" name="zip" style="width: 250px; height: 20px;" required><br><br>
+
+        <label>About:</label><br>
+<textarea placeholder="write about yourself..." style="width: 250px; height: 100px;" ></textarea><br><br>
+
+    
+
+    <button type="submit">Register Now!</button>
+
+
+    </form>
+    
+</body>
+</html>
